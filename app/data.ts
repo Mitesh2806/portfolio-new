@@ -38,39 +38,42 @@ export const PROJECTS: Project[] = [
     id: 'project1',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
+    name: 'Ecell AIT Pune',
+    description: 'Main website for I&E Cell AIT pune',
+    link: 'https://www.aitecell.in/',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+      'https://res.cloudinary.com/ddtcw7zsr/video/upload/v1740303326/Screen_Recording_2025-02-23_150428_l9vugp.mp4',
     id: 'project2',
   },
+  {
+    name: 'Secret Messenger and Feedback',
+    description: 'A website to give anonymous feedback and message using personalised links (under development)',
+    link: 'https://secret-messaging-ai.vercel.app/',
+    video:
+      'https://res.cloudinary.com/ddtcw7zsr/image/upload/v1740304621/Screenshot_2025-02-23_152631_zytbdb.png',
+    id: 'project3',
+  },
+  {
+    name: 'Startup Saga',
+    description: 'Main website for the event Startup Saga',
+    link: 'https://www.startupsaga.in/',
+    video:
+      'https://res.cloudinary.com/ddtcw7zsr/video/upload/v1740305259/Screen_Recording_2025-02-23_153651_o77sml.mp4',
+    id: 'project4',
+  },
+
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
+ 
+ 
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
+    company: 'xxxxxx',
+    title: 'Front-end Developer',
+    start: 'Dec 2024',
     end: 'Present',
     link: 'https://ibelick.com',
     id: 'work1',
-  },
-  {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
-    id: 'work2',
-  },
-  {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work3',
   },
 ]
 
@@ -104,15 +107,15 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     label: 'Twitter/X',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://x.com/maity_mitesh',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'https://www.linkedin.com/in/mitesh-maity-3573201b7/',
   },
   {
     label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: 'https://www.instagram.com/miteshmaity280603/',
   },
 ]
 

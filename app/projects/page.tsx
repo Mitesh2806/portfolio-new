@@ -58,7 +58,7 @@ export default function Projects() {
       
     return (
         <>
-        <div className=" font-bold text-3xl mb-2">Projects</div>
+        <div className=" font-semibold text-3xl mb-2">Projects</div>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                   {PROJECTS.map((project) => (
                     <div key={project.name} className="space-y-2">

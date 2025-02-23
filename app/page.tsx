@@ -148,7 +148,7 @@ export default function Personal() {
         transition={TRANSITION_SECTION}
       >
         <div className="flex flex-row items-center justify-between mb-5">
-  <h3 className="text-lg font-medium">Projects</h3>
+  <h3 className="text-3xl font-semibold">Projects</h3>
   <a
     href="/projects"
     target="_blank"
@@ -156,13 +156,13 @@ export default function Personal() {
     className="group relative inline-block"
   >
     View more
-    <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full"></span>
+    <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full dark:bg-white"></span>
   </a>
 </div>
 
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-          {PROJECTS.map((project) => (
+          {PROJECTS.slice(0, 2).map((project) => (
             <div key={project.name} className="space-y-2">
               <div className="relative rounded-2xl bg-zinc-50/40 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50">
                 <ProjectVideo src={project.video} />
@@ -174,7 +174,7 @@ export default function Personal() {
                   target="_blank"
                 >
                   {project.name}
-                  <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full"></span>
+                  <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full dark:bg-white"></span>
                 </a>
                 <p className="text-base text-zinc-600 dark:text-zinc-400">
                   {project.description}
@@ -190,7 +190,7 @@ export default function Personal() {
         transition={TRANSITION_SECTION}
       >
         
-        <h3 className="mb-5 text-lg font-medium">Work Experience</h3>
+        <h3 className="mb-5 text-3xl font-semibold">Work Experience</h3>
 
 
         
@@ -231,7 +231,18 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-3 text-lg font-medium">Blog</h3>
+          <div className="flex flex-row items-center justify-between mb-5">
+  <h3 className="text-3xl font-semibold">Blogs</h3>
+  <a
+    href="/blogs"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group relative inline-block"
+  >
+    View more
+    <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full dark:bg-white"></span>
+  </a>
+</div>
         <div className="flex flex-col space-y-0">
           <AnimatedBackground
             enableHover
@@ -267,7 +278,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">Connect</h3>
+        <h3 className="mb-5 text-3xl font-semibold">Connect</h3>
         <p className="mb-5 text-zinc-600 dark:text-zinc-400">
           Feel free to contact me at{' '}
           <a className="underline dark:text-zinc-300" href={`mailto:${EMAIL}`}>
