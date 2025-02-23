@@ -77,13 +77,21 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
  
  
   {
-    company: 'xxxxxx',
+    company: 'Paaltu',
     title: 'Front-end Developer',
     start: 'Dec 2024',
-    end: 'Present',
-    link: 'https://ibelick.com',
+    end: 'Jan 2025',
+    link: 'https://paaltu.vercel.app/',
     id: 'work1',
   },
+  {
+    company: 'I&E Cell AIT Pune',
+    title: 'Technical Lead',
+    start: 'Sep 2024',
+    end: 'Present',
+    link: 'https://www.aitecell.in/',
+    id: 'work2',
+  }
 ]
 
 export const BLOG_POSTS: BlogPost[] = [
