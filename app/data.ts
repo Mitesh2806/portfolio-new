@@ -46,11 +46,11 @@ export const PROJECTS: Project[] = [
     id: 'project2',
   },
   {
-    name: 'Secret Messenger and Feedback',
-    description: 'A website to give anonymous feedback and message using personalised links (under development)',
-    link: 'https://secret-messaging-ai.vercel.app/',
+    name: 'CalcScribe',
+    description: 'An implementation of Apple\'s Calculator but for Windows',
+    link: 'https://ai-notes-calc-app.vercel.app/',
     video:
-      'https://res.cloudinary.com/ddtcw7zsr/image/upload/v1740304621/Screenshot_2025-02-23_152631_zytbdb.png',
+      'https://res.cloudinary.com/ddtcw7zsr/video/upload/v1740308831/Screen_Recording_2025-02-23_163631_uu5lso.mp4',
     id: 'project3',
   },
   {
@@ -61,6 +61,15 @@ export const PROJECTS: Project[] = [
       'https://res.cloudinary.com/ddtcw7zsr/video/upload/v1740305259/Screen_Recording_2025-02-23_153651_o77sml.mp4',
     id: 'project4',
   },
+  {
+    name: 'Secret Messenger and Feedback',
+    description: 'A website to give anonymous feedback and message using personalised links (under development)',
+    link: 'https://secret-messaging-ai.vercel.app/',
+    video:
+      'https://res.cloudinary.com/ddtcw7zsr/image/upload/v1740304621/Screenshot_2025-02-23_152631_zytbdb.png',
+    id: 'project5',
+  },
+ 
 
 ]
 
@@ -106,7 +115,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     link: 'https://github.com/Mitesh2806',
   },
   {
-    label: 'Twitter/X',
+    label: 'X',
     link: 'https://x.com/maity_mitesh',
   },
   {
