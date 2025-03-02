@@ -75,8 +75,7 @@ export const PROJECTS: Project[] = [
     link: 'https://calenterai.onrender.com',
     video:
       'https://res.cloudinary.com/ddtcw7zsr/image/upload/v1740304621/Screenshot_2025-02-23_152631_zytbdb.png',
-    id: 'project6
-      ',
+    id: 'project6',
   },
  
 
