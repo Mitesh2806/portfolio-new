@@ -69,6 +69,15 @@ export const PROJECTS: Project[] = [
       'https://res.cloudinary.com/ddtcw7zsr/image/upload/v1740304621/Screenshot_2025-02-23_152631_zytbdb.png',
     id: 'project5',
   },
+  {
+    name: 'CalenterAI',
+    description: 'A website to learn it all uses speech recognition for viva questions, uses AI to generate custom courses with customised quiz, a visualiser library to visualise concepts(beta) and RAG-pdf-chat(beta) for getting quality education ',
+    link: 'https://calenterai.onrender.com',
+    video:
+      'https://res.cloudinary.com/ddtcw7zsr/image/upload/v1740304621/Screenshot_2025-02-23_152631_zytbdb.png',
+    id: 'project6
+      ',
+  },
  
 
 ]
