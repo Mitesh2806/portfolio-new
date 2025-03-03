@@ -62,17 +62,17 @@ export const PROJECTS: Project[] = [
     id: 'project4',
   },
   {
-    name: 'Secret Messenger and Feedback',
-    description: 'A website to give anonymous feedback and message using personalised links (under development)',
-    link: 'https://secret-messaging-ai.vercel.app/',
-    video:
-      'https://res.cloudinary.com/ddtcw7zsr/image/upload/v1740304621/Screenshot_2025-02-23_152631_zytbdb.png',
-    id: 'project5',
-  },
-  {
     name: 'CalenterAI',
     description: 'A website to learn it all uses speech recognition for viva questions, uses AI to generate custom courses with customised quiz, a visualiser library to visualise concepts(beta) and RAG-pdf-chat(beta) for getting quality education ',
     link: 'https://calenterai.onrender.com',
+    video:
+      'https://res.cloudinary.com/ddtcw7zsr/video/upload/v1740998433/Screen_Recording_2025-03-02_162645_ruzevr.mp4',
+    id: 'project5',
+  },
+  {
+    name: 'Secret Messenger and Feedback',
+    description: 'A website to give anonymous feedback and message using personalised links (under development)',
+    link: 'https://secret-messaging-ai.vercel.app/',
     video:
       'https://res.cloudinary.com/ddtcw7zsr/image/upload/v1740304621/Screenshot_2025-02-23_152631_zytbdb.png',
     id: 'project6',
