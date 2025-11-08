@@ -4,7 +4,7 @@ import { motion } from 'motion/react'
 
 export function ResumeCircle() {
   return (
-    <Link href="https://drive.google.com/file/d/1TxO-wrc-H60LWPBbHRuD6jN3EaXep_rp/view?usp=sharing">
+    <Link href="https://drive.google.com/file/d/1bZ7EQmDnFfm7EHtDzrypXFniUYOm1oMR/view?usp=sharing">
       <motion.div
         className="relative inline-block w-20 h-20 rounded-full border-2 border-zinc-900 dark:border-white flex items-center justify-center"
         animate={{ rotate: 360 }}

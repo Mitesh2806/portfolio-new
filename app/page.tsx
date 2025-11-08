@@ -137,8 +137,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Focused on creating intuitive and performant web experiences.
-            Bridging the gap between design and development.
+           A full-stack developer from India with experience in mobile app development(react native) and web application development
           </p>
         </div>
       </motion.section>
