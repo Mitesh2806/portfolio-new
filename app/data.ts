@@ -76,6 +76,14 @@ export const PROJECTS: Project[] = [
       'https://res.cloudinary.com/ddtcw7zsr/video/upload/v1740305259/Screen_Recording_2025-02-23_153651_o77sml.mp4',
     id: 'project6',
   },
+  {
+    name: 'CalenterAI',
+    description: 'A website to learn it all uses speech recognition for viva questions, uses AI to generate custom courses with customised quiz, a visualiser library to visualise concepts(beta) and RAG-pdf-chat(beta) for getting quality education ',
+    link: 'https://calenterai.onrender.com',
+    video:
+      'https://res.cloudinary.com/ddtcw7zsr/video/upload/v1740998433/Screen_Recording_2025-03-02_162645_ruzevr.mp4',
+    id: 'project5',
+  },
 
   {
     name: 'Secret Messenger and Feedback',
