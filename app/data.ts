@@ -37,27 +37,34 @@ export const PROJECTS: Project[] = [
       'https://res.cloudinary.com/ddtcw7zsr/video/upload/v1740295772/Screen_Recording_2025-02-23_125246_aiwnnc.mp4',
     id: 'project1',
   },
+  {
+    name: 'Notehooks',
+    description:'A ',
+    link: 'https://www.notehooks.xyz',
+    video: 'https://res.cloudinary.com/ddtcw7zsr/video/upload/v1765195892/Screen_Recording_2025-12-08_172600_cwwyol.mp4',
+    id: 'project2'
+  },
     {
     name: 'CalcScribe',
     description: 'An implementation of Apple\'s Calculator but for Windows',
     link: 'https://ai-notes-calc-app.vercel.app/',
     video:
       'https://res.cloudinary.com/ddtcw7zsr/video/upload/v1740308831/Screen_Recording_2025-02-23_163631_uu5lso.mp4',
-    id: 'project2',
+    id: 'project3',
   },
     {
     name: "Github-rag",
     description: 'A website which analyses any github repo using RAG and gives answer to your every query regarding the repository',
     link: 'https://github-rag.onrender.com',
     video:'https://res.cloudinary.com/dvxizcuse/video/upload/v1762628794/Untitled_video_-_Made_with_Clipchamp_jvbvtz.mp4',
-    id: 'project3',
+    id: 'project4',
   },
   {
     name: "Instagram-analyser",
     description: 'A website which analyses any instagram account gives analysis on its demographics and helps analyze growth of the account',
     link: 'https://igauto-fe.vercel.app/',
     video:'https://res.cloudinary.com/dvxizcuse/video/upload/v1762629973/igauto-2_yz23ar.mp4',
-    id: 'project4',
+    id: 'project5',
   },
   {
     name: 'Ecell AIT Pune',
@@ -65,7 +72,7 @@ export const PROJECTS: Project[] = [
     link: 'https://www.aitecell.in/',
     video:
       'https://res.cloudinary.com/ddtcw7zsr/video/upload/v1740303326/Screen_Recording_2025-02-23_150428_l9vugp.mp4',
-    id: 'project5',
+    id: 'project6',
   },
 
   {
@@ -74,7 +81,7 @@ export const PROJECTS: Project[] = [
     link: 'https://www.startupsaga.in/',
     video:
       'https://res.cloudinary.com/ddtcw7zsr/video/upload/v1740305259/Screen_Recording_2025-02-23_153651_o77sml.mp4',
-    id: 'project6',
+    id: 'project7',
   },
   {
     name: 'CalenterAI',
@@ -82,7 +89,7 @@ export const PROJECTS: Project[] = [
     link: 'https://calenterai.onrender.com',
     video:
       'https://res.cloudinary.com/ddtcw7zsr/video/upload/v1740998433/Screen_Recording_2025-03-02_162645_ruzevr.mp4',
-    id: 'project5',
+    id: 'project8',
   },
 
   {
@@ -91,7 +98,7 @@ export const PROJECTS: Project[] = [
     link: 'https://secret-messaging-ai.vercel.app/',
     video:
       'https://res.cloudinary.com/ddtcw7zsr/image/upload/v1740304621/Screenshot_2025-02-23_152631_zytbdb.png',
-    id: 'project7',
+    id: 'project9',
   },
  
 
