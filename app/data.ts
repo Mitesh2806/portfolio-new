@@ -39,7 +39,7 @@ export const PROJECTS: Project[] = [
   },
   {
     name: 'Notehooks',
-    description:'A ',
+    description:'A light weight library for custom react hooks for easing out development process for frontend devs out there ',
     link: 'https://www.notehooks.xyz',
     video: 'https://res.cloudinary.com/ddtcw7zsr/video/upload/v1765195892/Screen_Recording_2025-12-08_172600_cwwyol.mp4',
     id: 'project2'
